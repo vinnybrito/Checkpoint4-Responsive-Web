@@ -134,6 +134,24 @@ else {
     console.log('Aluno Reprovado!');
 }
 
+//-------------------EXERCÍCO 6-------------------//
+
+// Crie um programa que receba um nome de usuário e uma senha e verifique se eles correspondem aos dados de um usuário cadastrado. Considere que o usuário cadastrado possui nome de usuário "admin" e senha "1234". O programa deve exibir uma mensagem indicando se o login foi realizado com sucesso ou se houve falha de autenticação.
+
+function Login() {
+
+    const usuario = document.getElementById("usuario").value;
+    const senha = document.getElementById("senha").value;
+  
+    if (usuario === 'admin' && senha === '1234' ) {
+        alert("Seja Bem-vindo!");
+    } 
+    
+    else {
+        alert("Usuário ou senha incorretos.");
+    }
+}
+
 //-------------------EXERCÍCO 8-------------------//
 
 // % pode ser utilizado para representar o resto de uma divisão.
