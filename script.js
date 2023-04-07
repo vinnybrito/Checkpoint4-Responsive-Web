@@ -10,7 +10,7 @@ const escola = {
 
 function alunoEstudando(nomeAluno) {
     console.log(`${nomeAluno} está estudando`);
-    document.write(`${nomeAluno} está estudando <br>`);
+    document.write(`<br>${nomeAluno} está estudando <br>`);
 }
   
 const aluno = "Vinicius";
@@ -150,6 +150,30 @@ function Login() {
     else {
         alert("Usuário ou senha incorretos.");
     }
+}
+
+//-------------------EXERCÍCO 7-------------------//
+
+const idade = prompt("Digite sua idade: ");
+
+if (idade <= 12) {
+  console.log("Você é uma criança.");
+  alert("Você é uma criança.");
+} 
+
+else if (idade <= 18) {
+  console.log("Você é um adolescente.");
+  alert("Você é um adolescente.");
+} 
+
+else if (idade <= 60) {
+  console.log("Você é um adulto.");
+  alert("Você é um adulto.");
+} 
+
+else {
+  console.log("Você é um idoso.");
+  alert("Você é um idoso.");
 }
 
 //-------------------EXERCÍCO 8-------------------//
