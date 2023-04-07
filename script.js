@@ -115,3 +115,21 @@ const soma2 = (a, b, c) => {
 }
 console.log(soma2(5, 4, 2));
 
+//-------------------EXERCÍCO 5-------------------//
+
+// Criar um programa que calcule a média de 7 notas e exiba uma mensagem indicando se o aluno foi aprovado ou reprovado. Considere que a média mínima para aprovação é 6. 
+
+const notas = (a, b, c, d, e, f, g) => {
+    return (a + b + c + d + e + f + g) / 7;
+}
+
+const media = notas(10, 5, 9, 8, 10, 7, 8);
+console.log(media);
+
+if (media >= 6) {
+    console.log('Aluno aprovado!');
+}
+
+else {
+    console.log('Aluno Reprovado!');
+}
