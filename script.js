@@ -115,6 +115,34 @@ const soma2 = (a, b, c) => {
 }
 console.log(soma2(5, 4, 2));
 
+//-------------------EXERCÍCO 4-------------------//
+
+//Crie uma função tradicional que conte os cliques na página e faça o mesmo usando Arrow function 
+const btn1 = document.getElementById("btn1");
+const clicks1 = document.getElementById("clicks1");
+
+const btn2 = document.getElementById("btn2");
+const clicks2 = document.getElementById("clicks2");
+
+let resultado1 = 0;
+let resultado2 = 0;
+
+//Tradicional
+function contarClicks() {
+    resultado1++;
+    clicks1.textContent = `${resultado1} click`;
+ }
+
+btn1.addEventListener("click", contarClicks);
+
+//Arrow Function
+const contarCliques = () => {
+    resultado2++;
+    clicks2.textContent = `${resultado2} click`;
+}
+
+btn2.addEventListener("click", contarCliques);
+
 //-------------------EXERCÍCO 5-------------------//
 
 // Criar um programa que calcule a média de 7 notas e exiba uma mensagem indicando se o aluno foi aprovado ou reprovado. Considere que a média mínima para aprovação é 6. 
