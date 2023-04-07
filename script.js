@@ -100,3 +100,18 @@ const totalDescontos = funcionarios.reduce(function(total, funcionario) {
   
   console.log("Total de descontos: " + totalDescontos);
   document.write(`<br>Total de descontos: ${totalDescontos} <br>`);
+
+//-------------------EXERCÍCO 3-------------------//
+
+// Tradicional
+function soma1(a, b, c){
+    return (a + b) / c;
+}
+console.log(soma1(8, 4, 2));
+
+//Arrow Function
+const soma2 = (a, b, c) => {
+    return (a + b) / c; 
+}
+console.log(soma2(5, 4, 2));
+
