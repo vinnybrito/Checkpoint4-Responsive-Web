@@ -133,3 +133,22 @@ if (media >= 6) {
 else {
     console.log('Aluno Reprovado!');
 }
+
+//-------------------EXERCÍCO 8-------------------//
+
+// % pode ser utilizado para representar o resto de uma divisão.
+
+const calcularResto = 23 % 2;
+console.log(calcularResto);
+
+//E através do resto da divisão, podemos criar um código que informar se um número é par ou impar.
+
+const valor = 16;
+
+if (valor % 2 === 0) {
+    console.log(`${valor} é um número par!`);
+} 
+
+else {
+    console.log(`${valor} é um número impar!`);
+}
